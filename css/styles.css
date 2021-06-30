@@ -1,0 +1,52 @@
+body {
+  background-image: linear-gradient(#EAF6F6, white);
+  font-family: "Trebuchet MS";
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+hr {
+  border-style: dotted none none;
+  /*Also achieveable by border-style: none; and border-top style: dotted;*/
+  width: 5%;
+  border-width: 5px;
+  border-color: #66BFBF;
+}
+
+/******************************CLASS SELECTORS*******************/
+.crown {
+  width: 310px;
+  height: 200px;
+}
+
+.contactmebutton:link, .contactmebutton:visited{
+  text-decoration: none;
+  color: red;
+  background-color: black;
+}
+
+.homeaddress {
+  color: #fb5151;
+  font-weight: bold;
+}
+
+.plink:link, .plink:visited {
+  background-color: #f7e2e2;
+  color: red;
+  text-decoration: none;
+}
+
+.plink:hover {
+  background-color: #fbd8d8;
+  text-decoration: none;
+}
+
+.plink:active {
+  background-color: #f0c0c0;
+}
